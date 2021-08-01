@@ -1,23 +1,36 @@
 #member-image {
-    width: 50px;
-    height: 50px;
-    margin: 10px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #member-name {
     font-size: medium;
     font-weight: bolder;
+    margin-left: 10px;
 }
 
 #absence-type {
     text-transform: capitalize;
-    margin-right: 10px;
+}
+
+#member-description {
+    margin-top: 5px;
 }
 
 @media screen and (max-width: 480px) {
     #member-image {
-        width: 30px;
-        height: 30px;
-        margin: 5px;
+        width: 40px;
+        height: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #member-description {
+        margin-top: 5px;
+        font-size: small;
     }
 }

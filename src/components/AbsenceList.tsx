@@ -1,6 +1,7 @@
 import { FC } from 'react';
-import { IMemberList, IMember, IAbsence } from '../util/interfaces';
+import { IMemberList, IMember, IAbsence } from '../util/Interfaces';
 import AbsenceItem from './AbsenceItem';
+import '../css/AbsenceList.css';
 
 interface IAbsenceListProps {
     members: IMemberList;
@@ -14,7 +15,7 @@ const AbsenceList: FC<IAbsenceListProps> = ({ members, absences }) => {
     })
 
     return (
-        <div className="ui list">{renderAbsenceList}</div>
+        <div id="absence-list" className="ui relaxed divided list">{renderAbsenceList}</div>
     )
 };
 

@@ -1,0 +1,19 @@
+#footer {
+    padding: 20px;
+}
+
+#footer-text {
+    margin-top: 7px;
+    font-size: medium;
+}
+
+@media screen and (max-width: 480px) {
+    #footer {
+        padding: 5px;
+    }
+
+    #footer-text {
+        margin-top: 10px;
+        font-size: small;
+    }
+}
