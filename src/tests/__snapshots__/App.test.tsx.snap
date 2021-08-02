@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.tsx snapshot testing 1`] = `
+<div
+  className="ui container"
+  id="app-container"
+>
+  <div
+    className="ui top fixed vertical menu"
+    id="header-bar"
+  >
+    <p
+      id="header-title"
+    >
+      Absence Manager
+    </p>
+    <div
+      className="ui action input "
+      id="date-filter"
+    >
+      <input
+        className="ui input"
+        onChange={[Function]}
+        placeholder="yyyy-mm-dd - yyyy-mm-dd"
+        value=""
+      />
+      <button
+        className="ui  icon button"
+        onClick={[Function]}
+      >
+        <i
+          className="calendar icon"
+        />
+      </button>
+    </div>
+    <div
+      className="ui simple selection dropdown"
+      id="type-filter"
+    >
+      <i
+        className="dropdown icon"
+      />
+      <div
+        className="text"
+      >
+        All absence
+      </div>
+      <div
+        className="menu"
+      >
+        <div
+          className="active item"
+          data-value="all"
+          onClick={[Function]}
+        >
+          All absence
+        </div>
+        <div
+          className=" item"
+          data-value="sickness"
+          onClick={[Function]}
+        >
+          Sickness
+        </div>
+        <div
+          className=" item"
+          data-value="vacation"
+          onClick={[Function]}
+        >
+          Vacation
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ui bottom fixed menu"
+    id="footer"
+  >
+    <div
+      className="ui container"
+    >
+      <div
+        id="footer-text"
+      >
+        <p>
+          Showing 
+          <b>
+            1
+          </b>
+           - 
+          <b>
+            0
+          </b>
+           of 
+          <b>
+            0
+          </b>
+           absentees
+        </p>
+      </div>
+      <div
+        className="right menu"
+      >
+        <div
+          className="ui basic buttons"
+        >
+          <button
+            className="ui button"
+            onClick={[Function]}
+          >
+            <i
+              className="left chevron icon"
+            />
+          </button>
+          <button
+            className="ui button"
+            onClick={[Function]}
+          >
+            <i
+              className="right chevron icon"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ui active large loader"
+  />
+</div>
+`;

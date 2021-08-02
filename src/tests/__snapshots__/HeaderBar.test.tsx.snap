@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderBar.tsx snapshot testing 1`] = `
+<div
+  className="ui top fixed vertical menu"
+  id="header-bar"
+>
+  <p
+    id="header-title"
+  >
+    Header Bar
+  </p>
+  <div
+    className="ui action input "
+    id="date-filter"
+  >
+    <input
+      className="ui input"
+      onChange={[Function]}
+      placeholder="yyyy-mm-dd - yyyy-mm-dd"
+      value=""
+    />
+    <button
+      className="ui  icon button"
+      onClick={[Function]}
+    >
+      <i
+        className="calendar icon"
+      />
+    </button>
+  </div>
+  <div
+    className="ui simple selection dropdown"
+    id="type-filter"
+  >
+    <i
+      className="dropdown icon"
+    />
+    <div
+      className="text"
+    >
+      All absence
+    </div>
+    <div
+      className="menu"
+    >
+      <div
+        className="active item"
+        data-value="all"
+        onClick={[Function]}
+      >
+        All absence
+      </div>
+      <div
+        className=" item"
+        data-value="sickness"
+        onClick={[Function]}
+      >
+        Sickness
+      </div>
+      <div
+        className=" item"
+        data-value="vacation"
+        onClick={[Function]}
+      >
+        Vacation
+      </div>
+    </div>
+  </div>
+</div>
+`;

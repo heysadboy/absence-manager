@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AbsenceItem.tsx snapshot testing 1`] = `
+<div
+  className="ui grid"
+  id="absence-item"
+>
+  <div
+    className="three wide column"
+  >
+    <img
+      alt="name"
+      className="ui avatar image"
+      id="member-image"
+      src="image link"
+    />
+  </div>
+  <div
+    className="thirteen wide column"
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="ui mini green label"
+      >
+        Confirmed
+      </div>
+      <span
+        id="member-name"
+      >
+        name
+      </span>
+      <div
+        className="description"
+        id="member-description"
+      >
+        <i
+          className="home icon"
+        />
+         
+        <span
+          id="absence-type"
+        >
+          vacation
+        </span>
+        <br />
+        <i
+          className="calendar alternate outline icon"
+        />
+         
+        2020-12-12
+         - 
+        2020-12-12
+        <br />
+        Member Note: member note
+        <br />
+        Admitter Note: admitter note
+      </div>
+    </div>
+  </div>
+</div>
+`;
