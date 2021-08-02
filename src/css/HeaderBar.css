@@ -1,15 +1,50 @@
 #header-bar {
     padding: 20px;
+    width: 100%;
 }
 
 #header-title {
     font-size: x-large;
     font-weight: bold;
+    margin: 14px 0px 0px 0px;
+    float: left;
+}
+
+#date-filter {
+    min-width: 240px;
+    float: right;
+    margin: 10px;
+}
+
+#type-filter {
+    min-width: 240px;
+    float: right;
+    margin: 10px;
 }
 
 @media screen and (max-width: 480px) {
+    #header-bar {
+        padding: 10px;
+    }
+
     #header-title {
-        font-size: medium;
+        margin: 12px 0px 0px 0px;
+        font-size: large;
         font-weight: bold;
+        max-width: 100px;
+    }
+
+    #date-filter {
+        min-width: 220px;
+        float: right;
+        margin: 0px 0px 5px 0px;
+        font-size: small;
+    }
+    
+    #type-filter {
+        min-width: 220px;
+        float: right;
+        margin: 0px;
+        font-size: small;
     }
 }

@@ -20,7 +20,7 @@ const AbsenceItem: FC<IAbsenceItemProps> = ({ member, absence }) => {
                     <span id="member-name">{member.name}</span>
                     <div id="member-description" className="description">
                         <i className="home icon" /> <span id="absence-type">{absence.type}</span><br />
-                        <i className="calendar alternate outline icon" /> {absence.startDate} ~ {absence.endDate}<br />
+                        <i className="calendar alternate outline icon" /> {absence.startDate} - {absence.endDate}<br />
                         {absence.memberNote !== null && absence.memberNote !== "" ? `Member Note: ${absence.memberNote}` : null}<br />
                         {absence.admitterNote !== null && absence.admitterNote !== "" ? `Admitter Note: ${absence.admitterNote}` : null}
                     </div>

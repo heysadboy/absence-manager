@@ -12,7 +12,7 @@ export enum EPageStatus {
 }
 
 export enum EAbsenceType {
-    sickness = 'Sickness',
-    vacation = 'Vacation',
-    all = 'All'
+    sickness = 'sickness',
+    vacation = 'vacation',
+    all = 'all'
 }

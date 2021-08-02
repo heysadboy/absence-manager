@@ -5,6 +5,6 @@ export type TPageIndex = {
 }
 
 export type TDateRange = {
-    start: string,
-    end: string
+    start: Date | null,
+    end: Date | null
 }
